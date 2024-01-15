@@ -4,7 +4,6 @@ import {
   FaChartBar,
   FaChartLine,
   FaChartPie,
-  FaGamepad,
   FaStopwatch,
 } from "react-icons/fa";
 import { HiMenuAlt4 } from "react-icons/hi";
@@ -146,12 +145,6 @@ const DivThree = ({ location }: { location: Location }) => (
         url="/admin/app/coupon"
         text="Coupon"
         Icon={RiCoupon3Fill}
-        location={location}
-      />
-      <Li
-        url="/admin/app/toss"
-        text="Toss"
-        Icon={FaGamepad}
         location={location}
       />
     </ul>
